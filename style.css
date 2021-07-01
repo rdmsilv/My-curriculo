@@ -3,11 +3,20 @@ html, body, h2
     margin: 0;
     padding: 0;
 }
+main{
+    background-image: linear-gradient(#020024 0%, #090979 35%,#00d4ff 100%);
+    width: 2em auto;
+    padding: 3em;
+}
+
 header{
-    background: #020024;
     color: azure;
     font-size: 15px;
     font-family: sans-serif;
+}
+
+h3 {
+    text-align: center;
 }
 
 nav{
@@ -16,20 +25,27 @@ nav{
     right: 120px;
 }
 
-img{
+.img-foto-do-perfil{
     padding: 3em;
     width: 200px;
     border-radius: 50%;
 }
 
+.mapa{
+    text-align: center;
+}
+
+
 h2 {
     padding: 1em;
     text-align: center;
     color: azure;
+    text-transform: uppercase;
 }
 
-main{
-    background-image: linear-gradient(#020024 0%, #090979 35%,#00d4ff 100%);
-    width: 2em auto;
-    padding: 3em;
+footer {
+    color: slategray;
+    font-size: 12px;
+    text-align: center;
 }
+
